@@ -1,6 +1,7 @@
 
 package application;
 
+import dao.CiudadData;
 import models.*;
 
 import java.sql.*;
@@ -16,7 +17,7 @@ public class UserApp {
 		Ciudad ciudad3 = new Ciudad("Carlos Paz", "Cordoba", "Argentina");
 		Ciudad ciudad4 = new Ciudad("Bariloche", "Rio Negro", "Argentina");
 
-//		CiudadData.cargarCiudad(ciudad1);
+		CiudadData.cargarCiudad(ciudad1);
 //		CiudadData.cargarCiudad(ciudad2);
 //		CiudadData.cargarCiudad(ciudad3);
 //		CiudadData.cargarCiudad(ciudad4);

@@ -67,12 +67,12 @@ public class Ciudad {
 
 	@Override
 	public String toString() {
-		return """
-				ID: %d
-				Nombre: %s
-				Provincia: %s
-				Pais: %s
-				Estado: %s
-				""".formatted(idCiudad, nombre, provincia, pais, estado);
+		return "";
+//				ID: %d
+//				Nombre: %s
+//				Provincia: %s
+//				Pais: %s
+//				Estado: %s
+//				""".formatted(idCiudad, nombre, provincia, pais, estado);
 	}
 }

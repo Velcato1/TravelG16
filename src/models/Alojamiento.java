@@ -109,15 +109,15 @@ public class Alojamiento {
 
 	@Override
 	public String toString() {
-		return """
-				ID: %d
-				Nombre: %s
-				Checking: %s
-				Checkout: %s
-				Servicio: %s
-				Diaria: %,.2f
-				Ciudad de Destino: %s
-				""".formatted(idAlojamiento, nombre, checkIn, checkOut,
-				servicio, importeDiario, ciudadDestino.getNombre());
+return "";
+//				ID: %d
+//				Nombre: %s
+//				Checking: %s
+//				Checkout: %s
+//				Servicio: %s
+//				Diaria: %,.2f
+//				Ciudad de Destino: %s
+//				""".formatted(idAlojamiento, nombre, checkIn, checkOut,
+//				servicio, importeDiario, ciudadDestino.getNombre());
 	}
 }

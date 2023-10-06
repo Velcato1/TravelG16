@@ -79,14 +79,14 @@ public class Pasaje {
 
 	@Override
 	public String toString() {
-		return """
-				ID: %d
-				Tipo Transporte: %s
-				Importe: %,.2f
-				Ciudad de Origen: %s
-				Ciudad de Destino: %s
-				Aplicable: %s
-				""".formatted(idPasaje, tipoTransporte.name(), importe,
-				ciudadOrigen.getNombre(), ciudadDestino.getNombre(), estado);
+		return "";
+//				ID: %d
+//				Tipo Transporte: %s
+//				Importe: %,.2f
+//				Ciudad de Origen: %s
+//				Ciudad de Destino: %s
+//				Aplicable: %s
+//				""".formatted(idPasaje, tipoTransporte.name(), importe,
+//				ciudadOrigen.getNombre(), ciudadDestino.getNombre(), estado);
 	}
 }
